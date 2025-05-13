@@ -1,0 +1,14 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Note: Setting temperature below threshold (2000)
+Time: 200 ns  Iteration: 0  Process: /top_level_tb/stim_proc  File: /home/sonia/TempAlarm_NexysA7/TempAlarm_NexysA7.srcs/sim_1/new/top_level_tb.vhd
+Note: Increasing temperature above threshold (2500)
+Time: 300 ns  Iteration: 0  Process: /top_level_tb/stim_proc  File: /home/sonia/TempAlarm_NexysA7/TempAlarm_NexysA7.srcs/sim_1/new/top_level_tb.vhd
+Note: Decreasing temperature below threshold (2000)
+Time: 400 ns  Iteration: 0  Process: /top_level_tb/stim_proc  File: /home/sonia/TempAlarm_NexysA7/TempAlarm_NexysA7.srcs/sim_1/new/top_level_tb.vhd
+Note: Temperature remains below threshold (1800)
+Time: 500 ns  Iteration: 0  Process: /top_level_tb/stim_proc  File: /home/sonia/TempAlarm_NexysA7/TempAlarm_NexysA7.srcs/sim_1/new/top_level_tb.vhd
+Note: Applying reset
+Time: 600 ns  Iteration: 0  Process: /top_level_tb/stim_proc  File: /home/sonia/TempAlarm_NexysA7/TempAlarm_NexysA7.srcs/sim_1/new/top_level_tb.vhd
+Note: Simulation completed successfully after 800ns!
+Time: 700 ns  Iteration: 0  Process: /top_level_tb/stim_proc  File: /home/sonia/TempAlarm_NexysA7/TempAlarm_NexysA7.srcs/sim_1/new/top_level_tb.vhd

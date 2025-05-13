@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr 16 23:38:15 2025
+# Process ID: 589871
+# Current directory: /home/sonia/TempAlarm_NexysA7/TempAlarm_NexysA7.runs/synth_1
+# Command line: vivado -log temp_display.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source temp_display.tcl
+# Log file: /home/sonia/TempAlarm_NexysA7/TempAlarm_NexysA7.runs/synth_1/temp_display.vds
+# Journal file: /home/sonia/TempAlarm_NexysA7/TempAlarm_NexysA7.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source temp_display.tcl -notrace

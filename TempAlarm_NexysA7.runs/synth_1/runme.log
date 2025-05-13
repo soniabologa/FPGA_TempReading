@@ -1,0 +1,322 @@
+
+*** Running vivado
+    with args -log temp_display.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source temp_display.tcl
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source temp_display.tcl -notrace
+Command: synth_design -top temp_display -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 589901
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2327.949 ; gain = 0.000 ; free physical = 16897 ; free virtual = 83417
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'temp_display' [/home/sonia/TempAlarm_NexysA7/TempAlarm_NexysA7.srcs/sources_1/new/top_level.vhd:16]
+	Parameter INIT_40 bound to: 16'b0001000000000000 
+	Parameter INIT_41 bound to: 16'b0010111100000000 
+	Parameter INIT_42 bound to: 16'b0000100000000000 
+	Parameter INIT_48 bound to: 16'b0000000100000000 
+	Parameter INIT_49 bound to: 16'b0000000000000000 
+	Parameter INIT_4A bound to: 16'b0000000000000000 
+	Parameter INIT_4B bound to: 16'b0000000000000000 
+	Parameter INIT_4C bound to: 16'b0000000000000000 
+	Parameter INIT_4D bound to: 16'b0000000000000000 
+	Parameter INIT_4E bound to: 16'b0000000000000000 
+	Parameter INIT_4F bound to: 16'b0000000000000000 
+	Parameter INIT_50 bound to: 16'b1011010111101101 
+	Parameter INIT_51 bound to: 16'b0101011111100100 
+	Parameter INIT_52 bound to: 16'b1010000101000111 
+	Parameter INIT_53 bound to: 16'b1100101000110011 
+	Parameter INIT_54 bound to: 16'b1010100100111010 
+	Parameter INIT_55 bound to: 16'b0101001011000110 
+	Parameter INIT_56 bound to: 16'b1001010101010101 
+	Parameter INIT_57 bound to: 16'b1010111001001110 
+	Parameter INIT_58 bound to: 16'b0101100110011001 
+	Parameter INIT_5C bound to: 16'b0101000100010001 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+	Parameter SIM_MONITOR_FILE bound to: design.txt - type: string 
+INFO: [Synth 8-3491] module 'XADC' declared at '/home/sonia/tools/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:82182' bound to instance 'XADC_inst' of component 'XADC' [/home/sonia/TempAlarm_NexysA7/TempAlarm_NexysA7.srcs/sources_1/new/top_level.vhd:123]
+INFO: [Synth 8-6157] synthesizing module 'XADC' [/home/sonia/tools/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:82182]
+	Parameter INIT_40 bound to: 16'b0001000000000000 
+	Parameter INIT_41 bound to: 16'b0010111100000000 
+	Parameter INIT_42 bound to: 16'b0000100000000000 
+	Parameter INIT_43 bound to: 16'b0000000000000000 
+	Parameter INIT_44 bound to: 16'b0000000000000000 
+	Parameter INIT_45 bound to: 16'b0000000000000000 
+	Parameter INIT_46 bound to: 16'b0000000000000000 
+	Parameter INIT_47 bound to: 16'b0000000000000000 
+	Parameter INIT_48 bound to: 16'b0000000100000000 
+	Parameter INIT_49 bound to: 16'b0000000000000000 
+	Parameter INIT_4A bound to: 16'b0000000000000000 
+	Parameter INIT_4B bound to: 16'b0000000000000000 
+	Parameter INIT_4C bound to: 16'b0000000000000000 
+	Parameter INIT_4D bound to: 16'b0000000000000000 
+	Parameter INIT_4E bound to: 16'b0000000000000000 
+	Parameter INIT_4F bound to: 16'b0000000000000000 
+	Parameter INIT_50 bound to: 16'b0000000000000000 
+	Parameter INIT_51 bound to: 16'b0000000000000000 
+	Parameter INIT_52 bound to: 16'b0000000000000000 
+	Parameter INIT_53 bound to: 16'b0000000000000000 
+	Parameter INIT_54 bound to: 16'b0000000000000000 
+	Parameter INIT_55 bound to: 16'b0000000000000000 
+	Parameter INIT_56 bound to: 16'b0000000000000000 
+	Parameter INIT_57 bound to: 16'b0000000000000000 
+	Parameter INIT_58 bound to: 16'b0000000000000000 
+	Parameter INIT_59 bound to: 16'b0000000000000000 
+	Parameter INIT_5A bound to: 16'b0000000000000000 
+	Parameter INIT_5B bound to: 16'b0000000000000000 
+	Parameter INIT_5C bound to: 16'b0000000000000000 
+	Parameter INIT_5D bound to: 16'b0000000000000000 
+	Parameter INIT_5E bound to: 16'b0000000000000000 
+	Parameter INIT_5F bound to: 16'b0000000000000000 
+	Parameter IS_CONVSTCLK_INVERTED bound to: 1'b0 
+	Parameter IS_DCLK_INVERTED bound to: 1'b0 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+	Parameter SIM_MONITOR_FILE bound to: design.txt - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'XADC' (1#1) [/home/sonia/tools/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:82182]
+INFO: [Synth 8-256] done synthesizing module 'temp_display' (2#1) [/home/sonia/TempAlarm_NexysA7/TempAlarm_NexysA7.srcs/sources_1/new/top_level.vhd:16]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2327.949 ; gain = 0.000 ; free physical = 16845 ; free virtual = 83365
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2327.949 ; gain = 0.000 ; free physical = 17340 ; free virtual = 83860
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2327.949 ; gain = 0.000 ; free physical = 17340 ; free virtual = 83860
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2327.949 ; gain = 0.000 ; free physical = 17340 ; free virtual = 83860
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/sonia/TempAlarm_NexysA7/TempAlarm_NexysA7.srcs/constrs_1/new/top_level_constr.xdc]
+WARNING: [Vivado 12-584] No ports matched 'TMP_SCL'. [/home/sonia/TempAlarm_NexysA7/TempAlarm_NexysA7.srcs/constrs_1/new/top_level_constr.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/sonia/TempAlarm_NexysA7/TempAlarm_NexysA7.srcs/constrs_1/new/top_level_constr.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'TMP_SDA'. [/home/sonia/TempAlarm_NexysA7/TempAlarm_NexysA7.srcs/constrs_1/new/top_level_constr.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/sonia/TempAlarm_NexysA7/TempAlarm_NexysA7.srcs/constrs_1/new/top_level_constr.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'TMP_INT'. [/home/sonia/TempAlarm_NexysA7/TempAlarm_NexysA7.srcs/constrs_1/new/top_level_constr.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/sonia/TempAlarm_NexysA7/TempAlarm_NexysA7.srcs/constrs_1/new/top_level_constr.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'TMP_CT'. [/home/sonia/TempAlarm_NexysA7/TempAlarm_NexysA7.srcs/constrs_1/new/top_level_constr.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/sonia/TempAlarm_NexysA7/TempAlarm_NexysA7.srcs/constrs_1/new/top_level_constr.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/sonia/TempAlarm_NexysA7/TempAlarm_NexysA7.srcs/constrs_1/new/top_level_constr.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/sonia/TempAlarm_NexysA7/TempAlarm_NexysA7.srcs/constrs_1/new/top_level_constr.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/temp_display_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/temp_display_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2391.906 ; gain = 0.000 ; free physical = 17359 ; free virtual = 83879
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2391.906 ; gain = 0.000 ; free physical = 17359 ; free virtual = 83879
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2391.906 ; gain = 63.957 ; free physical = 17434 ; free virtual = 83954
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2391.906 ; gain = 63.957 ; free physical = 17434 ; free virtual = 83954
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2391.906 ; gain = 63.957 ; free physical = 17434 ; free virtual = 83954
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2391.906 ; gain = 63.957 ; free physical = 17435 ; free virtual = 83956
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   10 Bit       Adders := 2     
+	   2 Input    9 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input   10 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 3     
+	  12 Input    7 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP temp_celsius2, operation Mode is: A*(B:0x1f8).
+DSP Report: operator temp_celsius2 is absorbed into DSP temp_celsius2.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2391.906 ; gain = 63.957 ; free physical = 17476 ; free virtual = 84001
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping	Report (see note below)
++-------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name  | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|temp_display | A*(B:0x1f8) | 13     | 10     | -      | -      | 23     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++-------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2391.906 ; gain = 63.957 ; free physical = 17481 ; free virtual = 84005
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2391.906 ; gain = 63.957 ; free physical = 17484 ; free virtual = 84008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2391.906 ; gain = 63.957 ; free physical = 17484 ; free virtual = 84008
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2391.906 ; gain = 63.957 ; free physical = 17491 ; free virtual = 84016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2391.906 ; gain = 63.957 ; free physical = 17491 ; free virtual = 84016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2391.906 ; gain = 63.957 ; free physical = 17491 ; free virtual = 84016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2391.906 ; gain = 63.957 ; free physical = 17491 ; free virtual = 84016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2391.906 ; gain = 63.957 ; free physical = 17491 ; free virtual = 84016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2391.906 ; gain = 63.957 ; free physical = 17491 ; free virtual = 84016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |CARRY4  |    12|
+|3     |DSP48E1 |     1|
+|4     |LUT1    |     2|
+|5     |LUT2    |     7|
+|6     |LUT3    |     7|
+|7     |LUT4    |    15|
+|8     |LUT5    |    37|
+|9     |LUT6    |    25|
+|10    |XADC    |     1|
+|11    |FDCE    |    61|
+|12    |FDRE    |    17|
+|13    |IBUF    |     3|
+|14    |OBUF    |    16|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2391.906 ; gain = 63.957 ; free physical = 17491 ; free virtual = 84016
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2391.906 ; gain = 0.000 ; free physical = 17491 ; free virtual = 84016
+Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2391.906 ; gain = 63.957 ; free physical = 17491 ; free virtual = 84016
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2391.906 ; gain = 0.000 ; free physical = 17491 ; free virtual = 84016
+INFO: [Netlist 29-17] Analyzing 14 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2391.906 ; gain = 0.000 ; free physical = 17508 ; free virtual = 84032
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+22 Infos, 4 Warnings, 4 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 2391.906 ; gain = 64.031 ; free physical = 17578 ; free virtual = 84102
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint '/home/sonia/TempAlarm_NexysA7/TempAlarm_NexysA7.runs/synth_1/temp_display.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file temp_display_utilization_synth.rpt -pb temp_display_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 16 23:38:34 2025...
