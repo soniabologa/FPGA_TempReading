@@ -1,6 +1,6 @@
 # FPGA Temperature Display with Alarm
 
-This project reads the internal temperature of an FPGA using the XADC module and displays the value on a 2-digit 7-segment display. If the temperature exceeds 32°C, an alarm LED is triggered and latched until reset.
+This project reads the internal temperature of an FPGA using the XADC module and displays the value on a 2-digit 7-segment display. If the temperature exceeds 33°C, an alarm LED is triggered and latched until reset.
 
 ---
 
@@ -22,7 +22,7 @@ The design utilizes the Xilinx Artix-7 FPGA's built-in XADC to read the on-chip 
 - Uses **XADC** to read FPGA's internal temperature
 - Converts ADC value to Celsius
 - Displays temperature on 2-digit 7-segment display (0–99°C)
-- **Alarm LED (LED17)** latches on when temperature exceeds 32°C
+- **Alarm LED (LED17)** latches on when temperature exceeds 33°C
 - **Reset Switch (SW0)** to clear the alarm
 - 0.5s temperature update rate via internal counter
 
@@ -46,4 +46,9 @@ The design utilizes the Xilinx Artix-7 FPGA's built-in XADC to read the on-chip 
 2. Synthesize and implement the design.
 3. Program your **Nexys A7** FPGA board.
 4. Monitor the temperature displayed on the 7-segment display.
-5. LED17 will light up when temperature exceeds 32°C.
+5. LED17 will light up when temperature exceeds 33°C.
+
+---
+- ** [Slides Presentation](https://docs.google.com/presentation/d/18yjhLdyuHura9bs64y-Zvk38DSmPZUvsE48sJkZUVrA/edit?slide=id.p1#slide=id.p1)**
+- ** [Demo Video](https://photos.app.goo.gl/dpr5kYrzVfzq15AT6)**
+
